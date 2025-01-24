@@ -1,13 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { Squares } from './testComponents/heightWidth';
 
 const App = () => {
   return (
-    <View >
-      <Text>Open up App.js to start working on your app!</Text>
-      <Text>Changes you make will automatically reload.</Text>
-      <Text>Shake your phone to open the developer menu.</Text>
-      <StatusBar style="auto" />
+    <View>
+      <Squares/>
     </View>
   );
 }
