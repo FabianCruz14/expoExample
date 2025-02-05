@@ -4,9 +4,19 @@ import { StyleSheet, Text, View} from "react-native";
 const Squares = ()=>{
     return(
         <View>
-            <View sytle = {{styles.lilSquare}}/>
-            <View style = {styles.midSquare}/>
-            <View style = {styles.grandSquare}/>
+            <View sytle = {{
+            width: 50,
+            height: 50,
+            backgroundColor: 'powderblue'}}/>
+
+            <View style = {{
+            width: 100,
+            heigth: 100,
+            backgroundColor: 'skyblue'}}/>
+            <View style = {{
+            width: 150,
+            heigth: 150,
+            backgroundColor: 'steelblue'}}/>
         </View>
     );
 
